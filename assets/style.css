@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: gray;
+  padding: 30px 35px;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: aquamarine;
+  margin: 0;
+}
+
+header a {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+header nav {
+  float: right;
+  margin: 1px 0;
+}
+
+header ul {
+  list-style-type: none;
+  width: 500px;
+}
+
+header li {
+  font-size: 25px;
+  width: 300px;
+  color: aquamarine;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+section {
+  height: 300px;
+  background-color: white;
+  color: black;
+  font-size: 40px;
+}
