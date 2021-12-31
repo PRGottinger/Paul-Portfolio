@@ -9,23 +9,25 @@
     <title>Paul's Portfolio</title>
 </head>
 <header>
-    <h1>
-        <a href="/">Paul's Portfolio</a>
-    </h1>
+    <div>
+        <h1> Paul Gottinger
+             <a href="/"></a>
+        </h1>
+    </div>  
 
     <nav>
         <ul>
             <li>
-                <a href="#about-me">About Me</a>
+                <a href="#about-me">about me</a>
                 </li>
             <li>
-                <a href="#work">Work</a>
+                <a href="#work">work</a>
                 </li>
             <li>
-                <a href="#contact-me">Contact Me</a>
+                <a href="#contact-me">contact me</a>
             </li>
             <li>
-                <a href="#resume">Resume</a>
+                <a href="#resume">resume</a>
             </li>
         </ul>
     </nav>
@@ -33,23 +35,61 @@
 </header>
 
 <body>
-    <section id="about-me">
+    <div class=image>
+        <img src="assets/images/road.jpg" alt="Road in the mountains of Switzerland" />
+    </div>
+    <section class="section-heading" id="about-me">
         <h3>About Me</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ex ea ut, eveniet minima dicta quo fugit pariatur nemo obcaecati beatae, et minus ratione corrupti. Cumque deserunt expedita quia delectus.</p>
     </section>
     
-    <section id="work">
+    <section class="section-heading" id="work">
         <h3>Work</h3>
+        <!--big box-->
+        <div id="big-box">
+           <a href=""><img src="assets/images/project1.jpeg" alt="" ></a>
+        </div>
+
+        <!-- smaller boxes-->
+        <div id="small-box-1">
+            <a href=""><img src="assets/images/project2.jpg" alt=""></a>
+        </div>
+
+        <div id="small-box-2">
+            <a href=""><img src="assets/images/computer.jpg" alt=""></a>
+        </div>
+
+        <div></div>
+        
+        <div></div>
+
+
+
+
     </section>
     
-    <section id="contact-me">
+    <section class="section-heading" id="contact-me">
         <h3>Contact Me</h3>
+        <ul>
+        <li><a href="mailto:paul.gottinger@gmail.com">Email</a></li>
+        <li><a href="tel:7633605622">Call</a></li>
+        <li><a href="https://github.com/PRGottinger">Github</a></li>
+        <li><a href="https://twitter.com/PaulGottinger">Twitter</a></li>
+        </ul>
+
+        
     </section>
 
-    <section id="resume">
+    <section class="section-heading" id="resume">
         <h3>Resume</h3>
     </section>
-    
-    <footer></footer>
-    
+
 </body>
+
+<footer>
+    <h2>Designed by Paul!</h2>
+    <p>&copy; 2021 PR Gottinger</p>
+</footer>
+    
+ 
 </html>
