@@ -13,10 +13,10 @@ header {
 
 #square {
   width: 300px;
-  height: 60px;
+  height: 55px;
   background: #3eb7de;
   position: relative;
-  top: 50px;
+  top: 60px;
   left: 20px;
   border: white;
   border-style: solid;
@@ -29,13 +29,13 @@ header h1 {
   color: #0a2730;
   margin: 0;
   position: relative;
-  top: 0px;
+  top: 9px;
   left: 30px;
 }
 
 header nav {
   float: right;
-  margin: 4px 0;
+  margin: 1px 0;
 }
 
 header ul {
@@ -82,6 +82,15 @@ body {
   background-color: #e4e9eb;
 }
 
+
+
+/*  #image-text-1 #square-2 h3 img {  
+
+} */
+
+  
+
+
 #full-stack {
   font-weight: bold;
   font-size: 35px;
@@ -90,6 +99,8 @@ body {
   top: 10px;
   left: 15px;
 }
+
+
 
 #square-2 {
   width: 380px;
@@ -111,7 +122,7 @@ body {
   height: auto;
   border: solid;
   border-color: white;
-  border-top-width: 4px;
+  border-top-width: 1px;
   border-bottom-width: 1px;
   border-left-width: 0;
   border-right-width: 0;
@@ -121,7 +132,7 @@ body {
 
 .content {
   position: relative;
-  bottom: 50px;
+  bottom: 40px;
 }
 
 section {
@@ -135,7 +146,6 @@ section {
 .section-heading h3 {
   display: inline;
   position: relative;
-
   border: #3eb7de;
   border-style: solid;
   padding: 10px;
@@ -150,80 +160,176 @@ section ul li {
   padding: 20px;
 }
 
+#about-me {
+  position: relative;
+  bottom: 20px;
+  height: 200px;
+}
+
+#about-me p {
+  position: relative;
+  bottom: 25px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 50px;
+}
+
+/*
 #about-me p {
   display: inline;
-  border: red;
-  border-style: solid;
-  border-left: 5px;
+  border-left: 75px;
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 50px;
 }
-
+*/
 .items {
   width: 1100px;
   float: right;
   position: relative;
   right: 40px;
+  top: 10px;
+}
+
+#big-box-square {
+  width: 360px;
+  height: 60px;
+  background: #3eb7de;
+  float: left;
+  position: relative;
+  padding: 0px;
+  top: 410px;
+  left: 280px;
+  border: white;
+  border-style: solid;
+  border-width: 1px;
+  z-index: 1;
+}
+
+#big-box-square h4 {
+  position: relative;
+  left: 20px;
+  top: 7px;
+  text-decoration: none;
+}
+
+#big-box-square a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: none;
+  color: #0a2730;
 }
 
 #work {
   height: 1000px;
-  display: inline-block;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end */
 }
 
-#big-box {
-  text-align: center;
+#work-heading {
+  position: relative;
+  right: 290px;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #big-box img {
-  max-width: 70%;
+  max-width: 91%;
   height: auto;
-  align-items: center;
+  /*  align-items: center; */
   border: #3eb7de;
   border-style: solid;
+  position: relative;
+  left: 3px;
+  padding: 4px;
+  margin: 4px;
 }
 
 #small-box-1 img {
   width: 500px;
   height: auto;
-  position: relative;
-  left: 210px;
+  /*  position: relative;
+  left: 210px;  */
   border: #3eb7de;
   border-style: solid;
+  padding: 4px;
+  margin: 4px;
 }
 
 #small-box-2 img {
   width: 500px;
   height: auto;
-  position: relative;
+  /*  position: relative;
   right: -700px;
-  bottom: 220px;
+  bottom: 220px; */
   border: #3eb7de;
   border-style: solid;
-  display: inline-block;
+  padding: 4px;
+  margin: 4px;
+}
+
+#run-buddy img {
+  width: 500px;
+  height: auto;
+  border: #3eb7de;
+  border-style: solid;
+  padding: 4px;
+  margin: 4px;
+}
+
+#refactor img {
+  width: 500px;
+  height: auto;
+  border: #3eb7de;
+  border-style: solid;
+  padding: 4px;
+  margin: 4px;
+}
+
+#contact-me {
+  height: 150px;
 }
 
 #contact-me ul {
+  position: relative;
+  bottom: 43px;
   margin: 1, 150px;
   text-align: center;
 }
 
 #contact-me ul li {
   justify-content: space-between;
-  margin: 60px;
+  margin: 10px;
 }
 
 #contact-me ul li a {
   color: black;
   text-decoration: none;
+  font-size: 25px;
   display: inline;
-  margin: 1, 100px;
+  margin: 1, 1px;
   justify-content: space-around;
   border: solid 3px #2094c2;
   border-top: 0;
   border-right: 0;
   border-left: 0;
+}
+
+#resume a {
+  text-decoration: none;
+  color: #0a2730;
+  font-size: 40px;
 }
 
 footer {
