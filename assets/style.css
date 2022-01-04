@@ -176,6 +176,10 @@ section {
   padding: 20px;
 }
 
+.column-1 {
+  width: 70%;
+}
+
 .section-heading h3 {
   display: inline;
   position: relative;
@@ -241,12 +245,13 @@ section ul li {
 */
 
 .items {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .small-box {
   width: 45%;
+  margin: 0 auto;
 }
 
 #big-box-a {
@@ -285,7 +290,7 @@ section ul li {
 }
 
 #work {
-  height: 1000px;
+  height: 900px;
   position: relative;
   bottom: 40px;
 }
@@ -332,13 +337,15 @@ section ul li {
   border-style: solid;
 }
 
-#small-box-2 img {
+/*
+
+/* #small-box-2 img {
   width: 500px;
   height: auto;
   /*  position: relative;
   right: -700px;
-  bottom: 220px; */
-  border: #3eb7de;
+  bottom: 220px; was commented before*/
+/*border: #3eb7de;
   border-style: solid;
   padding: 0px;
   margin: 4px;
@@ -360,10 +367,10 @@ section ul li {
   border-style: solid;
   padding: 0px;
   margin: 4px;
-}
+} */
 
 #contact-me {
-  height: 150px;
+  height: 300px;
 }
 
 /*
@@ -400,7 +407,14 @@ section ul li {
 }
 
 #resume {
-  height: 150px;
+  height: 450px;
+}
+
+.paul-photo-resume {
+  background-image: url("/images/Paul.jpeg");
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #resume a {
@@ -411,16 +425,20 @@ section ul li {
 
 #resume img {
   max-width: 150px;
-  display: inline;
-  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  /* position: relative; */
   border: solid 3px #2094c2;
-  bottom: 40px;
+  /* bottom: 40px; */
 }
 
 #resume p {
-  position: relative;
+  display: flex;
+  justify-content: center;
+
+  /* position: relative;
   bottom: 150px;
-  left: 190px;
+  left: 190px; */
 }
 
 footer {
