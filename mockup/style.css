@@ -110,7 +110,7 @@ body {
 
 #image-box-text-1 {
   height: 25vw;
-  background-image: url("/assets/images/road.jpg");
+  background-image: url(/assets/images/road.jpg);
   background-size: 100%;
   display: flex;
   justify-content: flex-end;
