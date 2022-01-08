@@ -43,12 +43,6 @@
         <div id="square-2">
             <h3 id="full-stack">Full-Stack Developer</h3>
         </div>
-    
-<!--         
-        <div class=image>
-         <img src="assets/images/road.jpg" alt="Road in the mountains of Switzerland" />
-        </div>
-        -->
 
     </div>  
 
@@ -59,25 +53,31 @@
             <div class="column-1">
                 <h3>About Me</h3>
             </div>
-            <div class="column-2">
-            <div class="items">
-                <!--<img src="assets/images/Paul.jpeg">    --> 
-                <p> I am a student at the University of Minnesota full-stack development bootcamp.</p>
-            </div> 
-        </section>
+            
+            <div class="items" id="about-me-tx-pic">
+                <div id="paul-photo-1">
+                    <img src="assets/images/Paul.jpeg"> 
+               </div>
+                <div id="about-me-p">
+                    <p> I am a student at the University of Minnesota full-stack development bootcamp.</p>
+                </div>
+            </div> <!--items end-->
+            </section>
     
         <section class="section-heading" id="work">
-            <div class="column-1">
-            <h3 id="work-heading">Work</h3> 
-            </div>
+                <div class="column-1">
+                <h3 id="work-heading">Work</h3> 
+                </div>
             <!--big box-->
             
+
+            <div id="items">
             
                 <div id="boxes" class="items">
                     <div id="big-box">
                         <a href=""></a>
 
-                        <a id=  'big-box-a' href=""><div id="big-box-square"> 
+                        <a id='big-box-a' href=""><div id="big-box-square"> 
                             <h4>Amazing Project</h4>
                             
                         </div></a> 
@@ -88,20 +88,42 @@
 
             <!-- smaller boxes-->
                 
-                <div class="small-box">
-                     <a href=""><img src="assets/images/project2.jpg" alt=""></a>
-                </div>
+                <a href="">
 
-                <div class="small-box">
-                    <a href=""><img src="assets/images/computer.jpg" alt=""></a>
+                <div class="small-box" id="small-box-1">
+                    
+                     <!-- <a href=""><img src="assets/images/project2.jpg" alt=""> -->
+                        
+                        <!-- <div class="small-box-sq">
+                            <h4>Project Two</h4>
+                        </div> -->
+                        <a id='small-box-a' href=""><div id="small-box-square"> 
+                            <h4>Amazing Project 2</h4>
+                            
+                        </div></a> 
+                     
+                </div></a>
+
+                
+                <div class="small-box" id="small-box-2">
+                    <a id='small-box-a-2' href=""><div id="small-box-square-2"> 
+                        <h4>Amazing Project 3</h4>
+                        
+                    </div></a> 
+                   
                  </div>
                      
-                <div class="small-box">
-                    <a href="https://prgottinger.github.io/run-buddy-page/"><img src="assets/images/run-buddy-photo.jpg" alt=""></a>
+                <div class="small-box" id="small-box-3">
+                    <a id='small-box-a-3' href=""><div id="small-box-square-3"> 
+                        <h4>Run Buddy</h4>
+                    </div></a> 
                 </div>
                 
-                 <div class="small-box">
-                    <a href="https://prgottinger.github.io/Code-Refactor/"><img src="assets/images/refactor-photo.jpg" alt=""></a>
+                 <div class="small-box" id="small-box-4">
+                    <a id='small-box-a-4' href=""><div id="small-box-square-4"> 
+                        <h4>Horiseon Services</h4>
+                    </div></a> 
+
                  </div>
             </div>  <!--End of items div-->
         </section>
@@ -112,13 +134,15 @@
         <div class="column-1">
         <h3>Contact Me</h3>
         </div>
-        <ul class="items">
-            <li><a href="mailto:paul.gottinger@gmail.com">pgottinger@mail.com</a></li>
-            <li><a href="tel:7633605622">763.360.5622</a></li>
-            <li><a href="https://github.com/PRGottinger">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/paul-gottinger-28677572/">LinkedIn</a></li>
-            <li><a href="https://twitter.com/PaulGottinger">Twitter</a></li>
-        </ul>
+        <div id="contact-links">
+           <ul> 
+                 <!-- class="items">  -->
+                <li><a href="mailto:paul.gottinger@gmail.com">pgottinger@mail.com</a></li>
+                <li><a href="tel:7633605622">763.360.5622</a></li>
+                <li><a href="https://github.com/PRGottinger">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/paul-gottinger-28677572/">LinkedIn</a></li>
+            </ul>
+        </div>
 
         
     </section>
@@ -126,15 +150,15 @@
     <section class="section-heading" id="resume">
         <div class="column-1">
         <h3>Resume</h3>
-        </div class="column-2">
+        </div>
         <!-- <div class="items"> -->
-            <div class="paul-photo-resume">
-                <div id="paul-photo">
-                     <img src="assets/images/Paul.jpeg"> 
-                </div>
-            </div>
+            <!-- <div class="paul-photo-resume">
+                 <div id="paul-photo">
+                     <img src="assets/images/Paul.jpeg">  -->
+                <!-- </div> --> 
+            </div> 
             <div id="resume-p">
-                <p>You can check out my <a href=""> resume.</p></a>
+                <p>Check out my <a href="">resume.</a></p>
             </div>
         </div>
     </section>
@@ -144,7 +168,7 @@
 </body>
 
 <footer>
-    <h2>Designed by Paul!</h2>
+    <h2>Designed by Paul</h2>
     <p>&copy; 2021 PR Gottinger</p>
 </footer>
     
