@@ -283,14 +283,17 @@ section ul li {
 */
 
 #about-me p {
+  display: flex;
+  align-items: flex-start;
   font-size: 30px;
+  margin-bottom: 15px;
   /* position: relative;
   bottom: 65px;
   left: 40px; */
   /* width: 1000px; */
   padding-top: 0;
   padding-right: 0;
-  padding-bottom: 0;
+  padding-bottom: 50px;
   padding-left: 50px;
 }
 
