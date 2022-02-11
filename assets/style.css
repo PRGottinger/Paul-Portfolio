@@ -357,6 +357,7 @@ section ul li {
 }
 
 #big-box-square h4 {
+  font-size: 30px;
   position: relative;
   left: 20px;
   top: 7px;
@@ -366,7 +367,7 @@ section ul li {
 #big-box-square a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: none;
   color: var(--primary-color);
 }
@@ -397,7 +398,7 @@ section ul li {
 
 #big-box {
   /* background: red; */
-  background-image: url("images/project1.jpeg");
+  background-image: url("images/destination-briefing.jpg");
   height: 350px;
   width: 100%;
   position: relative;
