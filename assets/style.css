@@ -445,7 +445,7 @@ section ul li {
 }
 
 #small-box-1 {
-  background: url("images/project2.jpg");
+  background: url("images/fes-of-nat.jpg");
   background-size: cover;
   margin: 3px;
   /* margin-right: 0px;
@@ -483,7 +483,7 @@ section ul li {
 
 #small-box-square h4 {
   position: relative;
-  left: 20px;
+  left: 10px;
   top: 5px;
   text-decoration: none;
   font-size: 25px;
